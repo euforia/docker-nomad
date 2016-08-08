@@ -1,5 +1,7 @@
 FROM frolvlad/alpine-glibc:alpine-3.4
 
+MAINTAINER euforia
+
 ENV NOMAD_VERSION=0.4.0 \
     NOMAD_SHA256=c0479dcc03d35c1b0f6e7be256732431384bec16901a124dd97b2a60d465fb91
 
