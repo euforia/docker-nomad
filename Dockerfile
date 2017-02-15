@@ -2,8 +2,8 @@ FROM frolvlad/alpine-glibc:alpine-3.4
 
 MAINTAINER euforia
 
-ENV NOMAD_VERSION=0.4.0 \
-    NOMAD_SHA256=c0479dcc03d35c1b0f6e7be256732431384bec16901a124dd97b2a60d465fb91
+ENV NOMAD_VERSION=0.5.4 \
+    NOMAD_SHA256=ed9eb471b9f5bab729cfa402db5aa56e1d935c328ac48327267e0ea53568d5c2
 
 RUN apk add --update ca-certificates wget && \
     wget -O /nomad_${NOMAD_VERSION}_linux_amd64.zip https://releases.hashicorp.com/nomad/${NOMAD_VERSION}/nomad_${NOMAD_VERSION}_linux_amd64.zip && \
